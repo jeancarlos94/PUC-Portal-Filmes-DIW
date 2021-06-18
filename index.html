@@ -1,1 +1,103 @@
-<h1>Teste</h1>
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Portal de filmes DIW-Trabalho prático">
+  <meta name="author" content="Jean Carlos">
+  <link rel="icon" href="assets/img/favicon.ico">
+
+  <title>JN filmes</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/mdb.dark.min.css">
+  <!-- CSS customizado -->
+  <link href="assets/estilo.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-center">
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html"> <i class="fas fa-film fa-2x"></i>&nbsp; JN Filmes</a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navegacao"
+          aria-controls="navegacao" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navegacao">
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </header>
+
+  <main role="main">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Não encontrou o que procura ?</h1>
+        <p class="lead text-muted">Aqui você pode realizar buscas utilizando nomes de filmes.
+          Bora lá ? </p>
+
+        <!-- Search form -->
+        <form id="form" class="d-flex input-group w-auto justify-content-center">
+          <div class="row">
+            <div class="col12">
+              <input id="search" type="text" class="formulario" placeholder="Ex: Mortal Kombat">
+              <button class="btn-jc"><i class="fas fa-search fa-1x"></i></button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+    <div class="container py-5 bg-transparent">
+      <div class="row" id="main"></div>      
+    </div> 
+        
+  </main>
+
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Voltar ao topo</a>
+      </p>
+    </div>
+    <hr>
+    <div class="container autor">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p>Desenvolvido por <strong> Jean Carlos de Oliveira Evangelista como trabalho da disciplina de
+              Desenvolvimento de
+              Interfaces Web - <strong>PUC Minas Betim</strong> <i class="flag flag-brazil"></i>
+          </p>
+          <p class="redes">
+            <a href="#"> <i class="fab fa-twitter fa-2x"> </i></a>
+            <a href="#"> <i class="fab fa-facebook fa-2x text-primary"></i> </a>
+            <a href="#"> <i class="fab fa-instagram fa-2x"> </i> </a>
+            <a href="https://www.linkedin.com/in/jean-carlos-14301684/"> <i class="fab fa-linkedin fa-2x"> </i> </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+  <script src="assets/app.js"></script>
+
+</body>
+
+</html>
